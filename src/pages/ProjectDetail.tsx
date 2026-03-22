@@ -105,24 +105,26 @@ export default function ProjectDetail() {
                         </div>
                     </div>
 
-                    <div className="flex flex-col gap-4">
-                        <a
-                            href={siteConfig.social.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-full py-5 bg-white text-background font-mono text-xs uppercase tracking-[0.4em] text-center hover:bg-primary transition-colors magnetic"
-                        >
-                            Launch_Live_App.sh
-                        </a>
-                        <a
-                            href={siteConfig.social.github}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-full py-5 border border-white/20 text-white font-mono text-xs uppercase tracking-[0.4em] text-center hover:border-primary transition-all rounded-sm magnetic"
-                        >
-                            View_Source_Code.git
-                        </a>
-                    </div>
+                    {siteConfig.showSourceButton && (
+                        <div className="flex flex-col gap-4">
+                            <a
+                                href={siteConfig.social.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-full py-5 bg-white text-background font-mono text-xs uppercase tracking-[0.4em] text-center hover:bg-primary transition-colors magnetic"
+                            >
+                                Launch_Live_App.sh
+                            </a>
+                            <a
+                                href={siteConfig.social.github}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="w-full py-5 border border-white/20 text-white font-mono text-xs uppercase tracking-[0.4em] text-center hover:border-primary transition-all rounded-sm magnetic"
+                            >
+                                View_Source_Code.git
+                            </a>
+                        </div>
+                    )}
                 </div>
             </section>
 

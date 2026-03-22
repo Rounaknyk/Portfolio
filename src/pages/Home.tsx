@@ -192,40 +192,38 @@ export default function Home() {
                     {siteConfig.projects.map((project, i) => {
                         const isEven = i % 2 === 0;
                         return (
-                            <motion.div
-                                key={project.slug}
-                                initial={{ opacity: 0, x: 50 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                className="min-w-[85vw] md:min-w-[70vw] lg:min-w-[60vw] h-[500px] snap-center bg-surface border border-white/5 relative group p-1"
-                            >
-                                <div className={`flex flex-col lg:flex-row h-full w-full ${!isEven ? 'lg:flex-row-reverse' : ''}`}>
-                                    {/* Image Column */}
-                                    <div className="w-full lg:w-1/2 relative overflow-hidden">
-                                        <div className="absolute inset-0 z-0 opacity-[0.03] font-mono text-[8px] p-6 text-primary overflow-hidden">
-                                            {Array(5).fill(0).map((_, idx) => (
-                                                <div key={idx} className="whitespace-nowrap">{`import { ${project.slug.toUpperCase()} } from "@antigravity/core";`}</div>
-                                            ))}
+                            <Link to={`/works/${project.slug}`} key={project.slug}>
+                                <motion.div
+                                    initial={{ opacity: 0, x: 50 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    className="min-w-[85vw] md:min-w-[70vw] lg:min-w-[60vw] h-[500px] snap-center bg-surface border border-white/5 relative group p-1 cursor-pointer"
+                                >
+                                    <div className={`flex flex-col lg:flex-row h-full w-full ${!isEven ? 'lg:flex-row-reverse' : ''}`}>
+                                        {/* Image Column */}
+                                        <div className="w-full lg:w-1/2 relative overflow-hidden">
+                                            <div className="absolute inset-0 z-0 opacity-[0.03] font-mono text-[8px] p-6 text-primary overflow-hidden">
+                                                {Array(5).fill(0).map((_, idx) => (
+                                                    <div key={idx} className="whitespace-nowrap">{`import { ${project.slug.toUpperCase()} } from "@antigravity/core";`}</div>
+                                                ))}
+                                            </div>
+                                            <img src={project.image} className="w-full h-full object-cover grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-60 transition-all duration-700" />
+                                            <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-background/80 via-transparent to-transparent" />
                                         </div>
-                                        <img src={project.image} className="w-full h-full object-cover grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-60 transition-all duration-700" />
-                                        <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-background/80 via-transparent to-transparent" />
-                                    </div>
-                                    {/* Details Column */}
-                                    <div className="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
-                                        <span className="font-mono text-[9px] text-primary uppercase tracking-[0.4em] mb-4">{project.category} // {project.year}</span>
-                                        <h3 className="font-bebas text-5xl md:text-7xl group-hover:text-primary transition-colors leading-none mb-6">{project.name}</h3>
-                                        <p className="font-mono text-xs text-muted leading-relaxed line-clamp-3 mb-8">{project.badge || "High-performance solution built with precision engineering."}</p>
-                                        <div className="flex flex-wrap gap-2 mb-8">
-                                            {project.tech?.slice(0, 3).map((tag) => (
-                                                <span key={tag} className="px-2 py-0.5 border border-white/10 bg-white/5 font-mono text-[8px] text-muted uppercase tracking-widest">{tag}</span>
-                                            ))}
+                                        {/* Details Column */}
+                                        <div className="w-full lg:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+                                            <span className="font-mono text-[9px] text-primary uppercase tracking-[0.4em] mb-4">{project.category} // {project.year}</span>
+                                            <h3 className="font-bebas text-5xl md:text-7xl group-hover:text-primary transition-colors leading-none mb-6">{project.name}</h3>
+                                            <p className="font-mono text-xs text-muted leading-relaxed line-clamp-3 mb-8">{project.badge || "High-performance solution built with precision engineering."}</p>
+                                            <div className="flex flex-wrap gap-2">
+                                                {project.tech?.slice(0, 3).map((tag) => (
+                                                    <span key={tag} className="px-2 py-0.5 border border-white/10 bg-white/5 font-mono text-[8px] text-muted uppercase tracking-widest">{tag}</span>
+                                                ))}
+                                            </div>
                                         </div>
-                                        {siteConfig.showSourceButton && (
-                                            <Link to={`/works/${project.slug}`} className="w-fit px-6 py-2 border border-white/20 text-white font-mono text-[10px] uppercase tracking-widest hover:border-primary transition-all">Inspect_Source</Link>
-                                        )}
                                     </div>
-                                </div>
-                                <div className="absolute top-0 left-0 w-full h-[1px] bg-primary/20 -translate-y-full group-hover:animate-scan" />
-                            </motion.div>
+                                    <div className="absolute top-0 left-0 w-full h-[1px] bg-primary/20 -translate-y-full group-hover:animate-scan" />
+                                </motion.div>
+                            </Link>
                         );
                     })}
                 </div>
