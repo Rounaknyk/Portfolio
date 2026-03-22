@@ -1,0 +1,10 @@
+{
+    "title": "About Me",
+    "bio": {
+        "p1": "I'm Rounak Naik — a final-year Computer Engineering student at PCCE, Goa. I'm a full-stack developer, freelancer, and entrepreneur passionate about building technology that creates real-world impact. From apps deployed by the government to platforms that competed nationally, I don't just code — I ship.",
+        "p2": "I've won 5 hackathons and 8 ideathons, been recognized with the Young Entrepreneur Award by the Chief Minister of Goa, and completed a tech internship at Turtlemint. My projects span mobile apps, AI-driven platforms, Web3 blockchain systems, and freelance client work for businesses across India, the US, Netherlands, Kenya, and the Philippines.",
+        "p3": "Beyond building, I give back — as ACM Chapter Chair, GDG workshop instructor, and speaker at Google Developer events. I believe technology, built with empathy, can solve the world's hardest problems."
+    },
+    "available": "Open to new opportunities, internships, and project collaborations.",
+    "clientListTitle": "Experience"
+}

@@ -1,0 +1,20 @@
+{
+    "nav": {
+        "about": "About",
+        "works": "Works",
+        "resume": "Resume"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "madeWith": "Built with passion in Goa 🌊"
+    },
+    "buttons": {
+        "viewProject": "View project",
+        "backToWorks": "Back to works",
+        "getInTouch": "Get in touch"
+    },
+    "theme": {
+        "light": "Light",
+        "dark": "Dark"
+    }
+}

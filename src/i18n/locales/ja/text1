@@ -1,0 +1,1081 @@
+# ROUNAK NAIK - PORTFOLIO CONTENT
+
+## PERSONAL INFORMATION
+- **Name:** Rounak Naik
+- **Title:** Full-Stack Developer | Freelancer | Entrepreneur
+- **Location:** South Goa, Goa, India
+- **Education:** Bachelor of Engineering - Computer Engineering, Padre Conceicao College of Engineering (PCCE), Aug 2022 – Aug 2027 (Final Year)
+- **Previous Education:** St Andrews, Computer Science (2020-2022)
+
+## BIO/ABOUT
+Aspiring Computer Engineer and Full-Stack Developer currently in final year of undergraduate studies. Passionate about technology and innovation with proven track record in building scalable, real-world solutions with measurable impact. 
+
+**Key Highlights:**
+- 5X Hackathon Winner 🏆
+- 8X Ideathon Winner 🏆
+- Former Tech Intern at Turtlemint
+- Freelance developer serving clients globally (India, US, Netherlands, Kenya, Philippines)
+- Government app deployment with Goa Police (QuickPass - India's first police compliance pass app)
+- Young Entrepreneur Award recipient from Hon. Chief Minister of Goa
+- National-level hackathon finalist (Top 30 out of 5,000+ teams at HackIndia 2025)
+
+## PROFESSIONAL EXPERIENCE
+
+### Turtlemint - Tech Intern
+**Duration:** July 2025 - November 2025 (5 months)
+**Location:** Goa, India (On-site)
+
+**Role & Responsibilities:**
+- Worked on full-stack development for the Motor Services vertical
+- Built responsive UI components for frontend
+- Integrated REST APIs for seamless data flow
+- Migrated APIs from Play framework to Spring Boot
+- Performed debugging and performance optimization
+- Contributed to scalable backend features
+- Collaborated with cross-functional teams to deliver production-ready features aligned with business goals
+
+**Technologies:** Java, Spring Boot, REST APIs, Frontend Development, Backend Architecture
+
+---
+
+## MAJOR PROJECTS
+
+### 1. QuickPass - Police Compliance Pass App
+**Status:** Live and Deployed by Goa Government  
+**Recognition:** Launched by Hon. Chief Minister of Goa, Dr. Pramod Sawant  
+**Significance:** India's first app of its kind
+
+**Overview:**
+Revolutionary traffic compliance solution developed during the Goa Police Hackathon and officially deployed for active use by Traffic Police across Goa.
+
+**Problem Solved:**
+- Eliminated repeated document verification at traffic stops
+- Reduced inconvenience for drivers, especially tourists
+- Streamlined police verification process
+
+**Key Features:**
+- 24-hour QR code generation as proof of compliance
+- Real-time tracking system for police verifications
+- Automated validation system
+- Location-based verification
+- SMS integration for notifications
+
+**Impact:**
+- First app of its kind deployed in India
+- Actively used by Goa Traffic Police
+- Recognized and launched by Chief Minister of Goa
+- Solving real-world governance challenges through technology
+
+**Tech Stack:** Flutter, Firebase, QR Code Technology, Geo-tagging, SMS Integration
+
+**Team:** Developed with Palaash Naik, Sayhan Ali, and Travis Fernandes
+
+**Backend Support:** Kamalakar P.  
+**Guidance:** Dr. Supriya Patil
+
+---
+
+### 2. ContentAI - AI-Powered Content Generation Platform
+**Achievement:** Top 30 in India (out of 5,000+ teams) | Top 12 in AI Track  
+**Event:** HackIndia 2025 National Finals, Delhi
+
+**Journey:**
+- Started at Goa Regional Round (Spark3) - secured Top 3
+- Qualified for National Finals in Delhi
+- Competed against India's best innovators
+- Initially developed the concept in 2 days while learning ReactJS from scratch (as a Flutter developer)
+
+**Project Description:**
+AI-powered content management system that transforms simple campaign goals into complete marketing strategies, helping creators and businesses automate content creation and optimization.
+
+**Core Features:**
+
+1. **AI-Driven Campaign Generation**
+   - Automated persona analysis
+   - Competitor research automation
+   - Complete content planning
+   - Strategy generation from simple inputs
+
+2. **Living AI Mascot System**
+   - Customizable AI characters with unique personalities
+   - Contextual chat capabilities
+   - Brand personality integration
+
+3. **Instagram Analytics Integration**
+   - Real-time engagement tracking
+   - Sentiment analysis of posts
+   - Performance metrics dashboard
+
+4. **Content Generation Tools**
+   - AI-powered article generation from topics
+   - SEO optimization with actionable suggestions
+   - Custom thumbnail generation
+   - High-quality downloadable images
+
+**Technical Achievement:**
+Stepped out of comfort zone as Flutter developer to learn ReactJS in just 2 days to build the winning project.
+
+**Tech Stack:** React.js, Next.js, AI/ML APIs, Instagram API, Node.js
+
+**Team:** Sneha Karkannavar, Pritesh Shivalingkar
+
+**Sponsors:** RAIR Technologies Inc., Sharp Economy, SingularityNET, CSharpCorner
+
+---
+
+### 3. Tracq: Smart Waste Management Ecosystem
+**Achievement:** 1st Place Winner  
+**Event:** Technix 24-Hour Hackathon, Goa Engineering College (Government of Goa)
+
+**Project Overview:**
+Comprehensive waste management solution designed to address urban waste collection and promote proper waste segregation through integrated mobile and web platforms.
+
+**Platform Components:**
+
+**Mobile Application Features:**
+- Dual login system (Users and Waste Collectors)
+- QR code-based garbage collection tracking
+- Built-in waste segregation guide
+- AI-powered waste disposal assistance (image upload for guidance)
+- Smart notifications via SMS and WhatsApp
+- Red Light, Green Light quiz (Squid Game-inspired) for education
+
+**Security Features:**
+- QR codes scannable only once every 12 hours
+- Location verification (latitude/longitude matching)
+- Physical presence requirement for scanning
+- Fraud prevention mechanisms
+- Backend validation systems
+
+**Web Dashboard for Municipality:**
+- Real-time worker activity monitoring
+- User complaint management system
+- Garbage collection schedule management
+- Overflow and damaged bin reports
+
+**Advanced Features:**
+- CCTV monitoring for bin overflow detection
+- Automated reporting to municipal website
+- Real-time collection schedule updates
+- Delay notifications for residents
+
+**Impact:**
+Meaningful solution for environmental sustainability and urban waste management with real-world deployment potential.
+
+**Tech Stack:** Mobile Development (Flutter), Web Dashboard, AI Integration, CCTV Integration, Real-time Notifications
+
+**Team:** Sneha Karkannavar, Pritesh Shivalingkar
+
+**Event Theme:** Squid Game
+
+---
+
+### 4. Needy Paws - Animal Welfare Platform
+**Achievement:** Multiple Ideathon Wins (1st place at AITD Mapusa, 1st place at RIT Goa, Winner at GEC, 2nd place at DBCE Pitch Perfect)  
+**Status:** Published on Play Store
+
+**Problem Statement:**
+- Rapidly increasing stray animal population in India
+- Rising dog bite cases
+- Animals acting as disease carriers
+- Animal cruelty and mistreatment
+- Lack of organized adoption and rescue systems
+
+**Solution:**
+Comprehensive mobile application connecting stray animals with adopters, NGOs, veterinarians, and rescuers through a digital platform.
+
+**User Categories & Features:**
+
+1. **General Users:**
+   - Post animal photos with location (Google Maps)
+   - Report animal health issues
+   - Access community chat for animal lovers
+   - Get AI assistance (Max chatbot) for pet-related questions
+   - Upload images for AI-powered disposal guidance
+
+2. **NGOs/Adopters:**
+   - Browse animals available for adoption
+   - Use satellite map for location tracking
+   - Direct 1-1 chat with users who posted animals
+   - Coordinate rescue and adoption
+
+3. **Veterinarians:**
+   - List clinics in the app
+   - Treat infected animals
+   - Connect with users needing veterinary services
+   - Provide medical guidance
+
+4. **Rescuers:**
+   - Listed in app for emergency animal rescue
+   - Coordinate with users and NGOs
+   - Quick response system
+
+5. **Pet Shop Owners:**
+   - List shops in the app
+   - Connect with pet owners
+   - Promote products and services
+
+**AI Integration:**
+- Max AI Chatbot powered by ChatGPT/OpenAI
+- Instant answers to pet care questions
+- Behavior and health guidance
+- Disposal and care recommendations
+
+**Technical Features:**
+- Google Maps integration with location tracking
+- 1-1 chat with media sharing
+- Community chat feature
+- Push notifications
+- Image upload and analysis
+- Authentication system
+
+**Social Impact:**
+Revolutionary approach to solving India's stray animal crisis through technology, connecting all stakeholders in the animal welfare ecosystem.
+
+**Tech Stack:** Flutter, Firebase, Google Maps API, AI/ML (OpenAI), Node.js, MongoDB
+
+---
+
+### 5. EUSE - E-Waste Utilization and Sustainability Enhancement
+**Event:** Hackathon at Goa Engineering College
+
+**Mission:**
+Revolutionizing e-waste management through AI-powered mobile application promoting circular economy principles.
+
+**Core Features:**
+
+1. **E-Waste Marketplace:**
+   - Buy, sell, auction, or donate e-waste
+   - Seamless transaction system
+   - Promotes circular economy
+
+2. **Community Collaboration:**
+   - Connect with repair experts ("jugaadu" individuals)
+   - Engineer network for e-waste repair
+   - Foster reuse and repair culture
+
+3. **Educational Components:**
+   - AI-generated quizzes on e-waste
+   - Continuously updated questions
+   - Personalized YouTube video suggestions
+   - Waste management awareness content
+
+4. **AI-Powered Features:**
+   - Benefits analysis for recycling/donating
+   - Informed decision-making support
+   - Image analysis for product listing
+   - Automatic information extraction
+
+5. **Location Services:**
+   - Integrated map for nearby waste management centers
+   - Easy disposal and recycling access
+
+6. **Automated Selling:**
+   - Image analysis in "Sell" feature
+   - Automatic product information extraction
+   - Efficient listing process
+
+**Environmental Impact:**
+Significant step forward in fighting e-waste pollution through technology and sustainable practices.
+
+**Tech Stack:** Flutter, Node.js, MongoDB, Firebase, AI/ML
+
+---
+
+### 6. Siddharth Constructions - Corporate Website
+**Type:** Freelance Project  
+**Client:** Siddharth Constructions (Civil Contracting & Real Estate)  
+**Live URL:** Available on Vercel
+
+**Project Goal:**
+Create clean, modern, easy-to-navigate platform showcasing services and past work for a growing civil contracting and real estate firm.
+
+**Key Sections Developed:**
+
+1. **Responsive Landing Page:**
+   - Well-structured hero section
+   - Smooth scroll effects
+   - Clear call-to-action
+   - Immediate visitor engagement
+
+2. **Services Section:**
+   - Highlighted civil contracting offerings
+   - Real estate services showcase
+   - Visually distinct service cards
+   - Clear value proposition
+
+3. **Project Gallery:**
+   - Grid-style completed project showcase
+   - Optimized for desktop and mobile
+   - Professional presentation
+
+4. **Client Testimonials:**
+   - Trust-building layout
+   - Real client feedback
+   - Clean design
+
+5. **Contact & Location:**
+   - Google Maps integration
+   - Easy office location finding
+   - EmailJS contact form
+   - Direct email submission without backend
+
+**Technical Features:**
+- Fully responsive design (desktop to mobile)
+- Fast, secure hosting via Vercel
+- Smooth animations with Framer Motion
+- No backend required for contact form
+
+**Tech Stack:** Next.js, React.js, Framer Motion, EmailJS, Vercel
+
+---
+
+### 7. Time Capsule - Interactive Identity Experience
+**Type:** Side Project  
+**Development Time:** 1 day  
+**Live URL:** Available
+
+**Concept:**
+Creative web application that transforms user input (name and birthdate) into a cosmic identity narrative.
+
+**Features:**
+- Personality Essence analysis
+- Main Character Energy assessment
+- Bollywood Alter Ego matching
+- Poetic Cosmic Footnotes
+- Interactive storytelling experience
+
+**Creative Elements:**
+- Blend of storytelling and personality logic
+- UI/UX focused design
+- Identity journey exploration
+- Astrology-inspired narratives
+
+**Technical Achievement:**
+Built complete interactive experience in just one day, demonstrating rapid prototyping and creative coding skills.
+
+**Tech Stack:** React.js, Next.js
+
+---
+
+### 8. Goa Dental Solutions - Full-Stack Clinic Management App
+**Type:** Client Project  
+**Scope:** Complete full-stack mobile application
+
+**Project Vision:**
+Revolutionize dental experience for patients and doctors in Goa through comprehensive mobile platform.
+
+**Patient Features:**
+1. **Appointment Management:**
+   - Seamless scheduling on-the-go
+   - Appointment reminders
+   - Virtual consultation capability
+
+2. **Treatment Transparency:**
+   - Detailed treatment plan access
+   - Progress tracking
+   - Cost and billing information
+   - Real-time updates
+
+3. **Oral Care Enhancement:**
+   - Personalized dental care tips
+   - Educational resources
+   - Optimal dental health maintenance
+
+**Doctor Features:**
+1. **Workflow Management:**
+   - Centralized appointment management
+   - Patient record access
+   - Treatment plan creation
+   - Efficient scheduling
+
+2. **Communication Tools:**
+   - Easy patient connection
+   - Virtual prescription sending
+   - Remote progress tracking
+
+3. **Data Analytics:**
+   - Patient data insights
+   - Scheduling optimization
+   - Staffing decisions support
+   - Treatment offering optimization
+
+**Tech Stack:** Flutter (Mobile), Node.js (Backend), MongoDB (Database), Firebase
+
+---
+
+### 9. Dating App Platform (Tinder/Bumble Competitor)
+**Type:** Confidential Client Project  
+**Scope:** Complete full-stack dating application
+
+**Core Features:**
+
+1. **Swipe System:**
+   - Swipe right (like)
+   - Swipe left (dislike)
+   - Advanced matching algorithm
+
+2. **Communication:**
+   - 1-on-1 chat feature
+   - Media sharing capability
+   - Real-time messaging
+
+3. **Smart Matching:**
+   - Nearby location-based suggestions
+   - Interest-based matching
+   - Compatibility algorithms
+
+4. **Advanced Filtering:**
+   - Age-based filters
+   - Religion preferences
+   - Interest matching
+   - Orientation options
+
+5. **Authentication:**
+   - Google Sign-In
+   - Phone Number authentication
+   - Secure user verification
+
+6. **Engagement:**
+   - Push notifications
+   - Real-time updates
+   - Activity alerts
+
+**Technical Complexity:**
+Built to compete with industry leaders like Tinder and Bumble, requiring sophisticated matching algorithms and real-time communication infrastructure.
+
+**Tech Stack:** Flutter, Firebase, Real-time Database, Authentication Systems, Push Notifications
+
+**Note:** App link not shareable per client confidentiality agreement.
+
+---
+
+### 10. Diam Flow - Web3 Blockchain Asset Management
+**Achievement:** 4th Place  
+**Event:** Hacker House Goa (6-day national event, Top 100 teams from 25,000+ registrations)
+
+**Background:**
+First-ever Web3 blockchain hackathon experience, developed from zero blockchain knowledge to functional platform in 6 days.
+
+**Project Purpose:**
+Revolutionary blockchain-based system for transparent and fair digital asset distribution for organizations and governments.
+
+**Key Features:**
+
+1. **Asset Management:**
+   - Secure, transparent asset transfers
+   - Fair worker distribution system
+   - Built-in quality control measures
+
+2. **Blockchain Benefits:**
+   - Transparent blockchain ledger
+   - 100% traceable public funds
+   - Guaranteed fair pay for workers
+   - Accountability at every level
+
+3. **Future Vision:**
+   - Milestone-based vesting options
+   - Automated asset releases
+   - Smart contract integration
+
+**Core Values:**
+- Transparency in transactions
+- Fairness in distribution
+- Accountability in public funds
+- Decentralized asset management
+
+**Learning Achievement:**
+Complete transformation from zero blockchain knowledge to building functional Web3 application in 6 days through intensive collaboration with top blockchain teams from across India.
+
+**Tech Stack:** Diamante Blockchain, Web3 Technologies, Smart Contracts
+
+**Team:** Nischal Naik, Sanjay S. Kumar, Shridhar Kamat  
+**Mentor:** F Calvin Joshua
+
+---
+
+## ACHIEVEMENTS & AWARDS
+
+### 1. Young Entrepreneur Award
+**Awarded By:** Hon. Chief Minister of Goa, Dr. Pramod Sawant  
+**Event:** Converge 2.0 (Directorate of Higher Education, Government of Goa)  
+**Date:** 2025
+
+**Recognition For:**
+- Developing Needy Paws (animal welfare app)
+- Creating Women Safety Ecosystem
+- Building Smart Waste Management systems
+- Contributing to tech for social good
+- Innovation rooted in empathy
+- Impact on communities through technology
+
+**Significance:**
+Recognition from highest government office in Goa for using technology to solve real-world social problems and uplift communities.
+
+---
+
+### 2. Special Recognition Award from PCCE
+**Awarded By:** Director of Padre Conceicao College of Engineering, Verna (PCCE)  
+**Date:** 2025
+
+**Recognition For:**
+Cumulative achievements in technology over the past year, including:
+- Building real-world solutions
+- Winning national-level hackathons
+- Representing college across multiple platforms
+- Developing app for Goa Traffic Cell (QuickPass)
+- Being honored by Chief Minister of Goa
+
+**Memorable Moment:**
+Award ceremony where the list of achievements was so extensive that the compere was still reading them even after returning to seat with the trophy.
+
+---
+
+### 3. BNI Elegance Recognition Award
+**Awarded By:** BNI Elegance  
+**Event:** Business Voices Business Summit
+
+**Recognition For:**
+- Contributing to event success
+- Supporting business community
+- Promoting youth innovation
+- Professional networking contribution
+
+---
+
+### 4. HackIndia 2025 - National Finals
+**Achievement:** Top 30 in India (out of 5,000+ teams) | Top 12 in AI Track  
+**Location:** Delhi  
+**Project:** ContentAI
+
+**Journey:**
+- Regional Round (Goa) - Top 3 position
+- National Finals qualification
+- Competed against India's best innovators
+- Represented Goa at national level
+
+**Sponsors & Partners:**
+- RAIR Technologies Inc.
+- Sharp Economy
+- SingularityNET
+- CSharpCorner
+
+---
+
+### 5. Technix 2025 Hackathon Winner
+**Achievement:** 1st Place  
+**Event:** 24-hour Hackathon, Goa Engineering College (Government of Goa)  
+**Project:** Tracq - Smart Waste Management Ecosystem
+
+**Competition:**
+Premier colleges across Goa, 24-hour intensive development period
+
+---
+
+### 6. HackIndia Regional Round
+**Achievement:** 3rd Place (Top 3)  
+**Competition:** 75+ teams from five engineering colleges across Goa  
+**Project:** ContentAI  
+**Outcome:** Qualified for National Finals in Delhi
+
+**Technical Achievement:**
+Learned ReactJS in 2 days as a Flutter developer to build the winning project.
+
+---
+
+### 7. FlutterFlow Hackathon Winner
+**Achievement:** 1st Place  
+**Organizer:** GDG Goa (Google Developer Groups)  
+**Location:** Padre Conceicao College of Engineering (PCCE)
+
+**Platform:**
+Presented solution at DevFest Goa 2024 to audience of tech enthusiasts and industry leaders.
+
+---
+
+### 8. Goa Police Hackathon Winner
+**Achievement:** 1st Place  
+**Event:** 48-hour Hackathon  
+**Project:** Traffic Violation Management System (QuickPass precursor)  
+**Competition:** Premier institutions across Goa
+
+**Solution Features:**
+- Mobile app with OCR-based number plate detection
+- Real-time vehicle and owner information retrieval
+- Smart challan generation (4-hour validation)
+- QR-based verification with SMS integration
+- Geo-tagging and location tracking
+- AI analysis of driver violation patterns
+- Web platform for Goa Police with interactive maps
+- Hotspot identification for strategic enforcement
+- Comprehensive analytics dashboard
+
+**Impact:**
+- Prevents multiple vehicle checks
+- Streamlines challan generation
+- Enables data-driven law enforcement
+- Reduces paperwork and manual intervention
+
+---
+
+### 9. Inspirathon Hackathon
+**Achievement:** 3rd Place  
+**Event:** 24-hour Hackathon, Don Bosco College of Engineering, Fatorda  
+**Journey:** From waiting list to podium finish
+
+**Project:**
+Intelligent question paper solving app that:
+- Scans documents (images, PDFs, DOCX)
+- Extracts answers based on allocated marks
+- Uses AI for intelligent response generation
+- Simplifies academic information access
+
+**Team:** Shayne Cardozo, Deepak Borana
+
+---
+
+### 10. Infofest Hackathon
+**Achievement:** 2nd Place  
+**Host:** Goa University  
+**Project:** Live tracking carpooling app addressing transportation inefficiency
+
+**Team:** Mohammed Ali Khan
+
+---
+
+### 11. Multiple Ideathon Victories
+
+**National Institute of Technology (NIT) Goa:**
+- Winner - Animal welfare app concept
+- Team: Sakshi Kamble
+- Recognition: Volunteer opportunity offered by Mangirish Salelkar
+
+**Agnel Institute of Technology and Design (AITD), Mapusa:**
+- 1st Place - Needy Paws concept
+
+**RIT Goa College:**
+- Winner (1st Place) - Animal welfare mobile application
+- Competition: Premier colleges across Goa
+
+**Don Bosco College of Engineering (DBCE):**
+- 2nd Place at Pitch Perfect event
+- Concept: Stray animal and pet welfare platform
+- Team: Sohan Takkekar
+
+**Goa Engineering College:**
+- Winner - Needy Paws platform
+
+**PCCE Internal Ideathon:**
+- Winner - Part of IDEAS (Innovate, Design, Evaluate and Apply Solutions) - Silver Jubilee celebration event
+
+---
+
+### 12. BITS Pilani Quark 2024
+**Event:** National Level 24-hour Hackathon  
+**Host:** BITS Pilani K K Birla Goa Campus
+
+**Project:**
+Advanced carpooling app featuring:
+- Reclaim Protocol integration for driver authenticity
+- Live ride tracking
+- Real-time ride posting
+- Secure verification systems
+
+**Team:** Atharv Pednekar
+
+---
+
+### 13. Hacker House Goa
+**Achievement:** Top 100 teams (from 25,000+ registrations)  
+**Event:** 6-day offline national-level blockchain hackathon
+
+**Track Performance:**
+Worked across 4 different tracks simultaneously:
+- 4th Place in Competition overall
+- First-ever Web3 blockchain hackathon
+- Zero blockchain knowledge to functional deployment
+
+**Learning Impact:**
+6 intensive days of collaboration with top blockchain teams from across India, gaining tremendous knowledge in Web3 technologies.
+
+**Team:** Nischal Naik, Sanjay S. Kumar, Shridhar Kamat  
+**Mentor:** F Calvin Joshua
+
+---
+
+### 14. ACM Student Chapter - Leadership Role
+**Position:** Chair of PCCE ACM Student Chapter (2024-25)  
+**Installation:** August 23, 2024
+
+**Team:**
+- Chair: Rounak Naik
+- Vice Chair: Sreyash Naik
+- Treasurer: Leander Faleiro
+- Secretary: Shrain Dhavjekar
+- Membership Chair: Nick Araujo
+
+**Faculty Coordinators:** Dr. Louella Colaco, Ms. Meghana Pai Kane, Ms. Lindsey Colaco
+
+**Event:** Installation ceremony with Chief Guest Mr. Alwyn Pereira (Founder & CEO, Numino Labs, Pune) discussing latest in Cloud Technologies
+
+---
+
+### 15. E-Summit IIT Bombay Participation
+**Event:** Flagship E-Summit at IIT Bombay, Mumbai  
+**Date:** February 3-4, 2024
+
+**Competitions Participated:**
+- Corporate Duel
+- Leader Quest
+- ACE the Case
+- Bid and Build
+- IPL Auction
+- Nexus of Ingenuity
+- Fish Tank
+
+**Team:** 17 students from PCCE  
+**Faculty:** Dr. Shailesh Khanolkar, Linnet D'Silva  
+**E-Cell Leadership:** Bhumika Kushwaha (President), Jimil Mandani (Vice President)
+
+---
+
+### 16. Global Startup Entrepreneur Award - Goa Chapter
+**Event:** Pitch competition at Panaji
+
+**Achievement:**
+- Successfully pitched startup idea to panel of judges
+- Received positive feedback and recognition
+- Given innovative suggestions for enhancement
+- Networking with entrepreneurial community
+
+---
+
+### 17. E-Cell IIT Bombay Campus Ambassador
+**Position:** Campus Ambassador  
+**Organization:** E-Cell, IIT Bombay
+
+**Responsibilities:**
+- Fostering entrepreneurship at college and school levels
+- Representing IIT Bombay E-Cell initiatives
+- Community engagement and awareness
+- Promoting startup culture
+
+---
+
+## SPEAKING ENGAGEMENTS & WORKSHOPS
+
+### 1. Workshop Instructor - Flutter App Development
+**Event:** GDG Goa (Google Developer Groups) Workshop  
+**Location:** Padre Conceicao College of Engineering (PCCE)  
+**Audience:** Nearly 100 students
+
+**Topics Covered:**
+- Flutter Overview and advantages
+- Flutter Installation process
+- Flutter Basics and fundamentals
+- Dart Programming language
+- Real-time app development demonstration
+
+**Achievement:**
+First workshop as instructor, transitioning from attendee to teacher role.
+
+---
+
+### 2. Resource Person - IWD Techmakers
+**Event:** International Women's Day Techmakers  
+**Organizer:** GDG Goa (Google Developer Groups)  
+**Location:** Padre Conceicao College of Engineering (PCCE)  
+**Date:** May 8, 2025
+
+**Talk Title:** "The Hackathon Playbook"
+
+**Content Delivered:**
+- What makes hackathons special
+- How to form winning teams
+- Crafting the perfect pitch
+- Mindsets that lead to innovation
+- Strategies for hackathon success
+
+**Impact:**
+Empowering next wave of developers with practical hackathon insights from years of experience.
+
+---
+
+### 3. Technical Talks on App Development & Hackathons
+**Delivered:** Two comprehensive technical talks
+
+**Talk 1: The Lifecycle of App Development with Flutter**
+**Topics:**
+- Complete app development lifecycle
+- Flutter advantages in real-world scenarios
+- QuickPass case study (Goa Police collaboration)
+- From ideation to deployment
+- How tech meets public service
+
+**Talk 2: The Hackathon Playbook**
+**Event:** Google Developer Group event at PCCE
+
+**Key Topics:**
+1. What makes hackathons special
+2. Team formation strategies
+3. Perfect pitch crafting
+4. Innovation mindsets
+5. Impact-driven development
+
+**Goal:**
+Giving back to community and empowering future developers with practical knowledge.
+
+---
+
+### 4. E-Cell Orientation for First-Year Students
+**Event:** PCCE E-Cell Introduction  
+**Dates:** July 17-18, 2024  
+**Audience:** First-year undergraduate students
+
+**Content:**
+- Introduction to entrepreneurship
+- E-Cell mission and activities
+- Success stories
+- Key aspects of entrepreneurship
+- Interactive Q&A session
+
+**Team:** Sohan Takkekar, Hrithik Myageri, Nick Araujo
+
+---
+
+## TECHNICAL SKILLS
+
+### Programming Languages:
+- Dart
+- JavaScript
+- Java
+- Python
+- TypeScript
+- HTML/CSS
+
+### Frameworks & Technologies:
+- **Mobile Development:** Flutter, iOS Development, Android Development
+- **Web Development:** React.js, Next.js, Node.js
+- **Backend:** Spring Boot, Express.js
+- **Database:** MongoDB, Firebase Realtime Database, MySQL
+- **Cloud & Hosting:** Vercel, Firebase Hosting, AWS basics
+- **APIs:** REST APIs, GraphQL
+- **Blockchain:** Web3, Smart Contracts, Diamante Blockchain
+- **AI/ML:** OpenAI Integration, ChatGPT APIs, ML model integration
+- **Other:** Git, Docker basics, Microservices
+
+### Specialized Skills:
+- Full-Stack Development
+- Cross-platform Mobile Development
+- UI/UX Design
+- API Integration
+- Database Design
+- Cloud Deployment
+- Blockchain Development (Web3)
+- AI Integration
+- Real-time Systems
+- Payment Gateway Integration
+- Authentication Systems
+- Geolocation Services
+- Push Notifications
+- QR Code Systems
+
+---
+
+## SOFT SKILLS
+
+- Team Leadership (ACM Chair, Workshop Instructor)
+- Public Speaking (Multiple technical talks, presentations)
+- Project Management (Led multiple hackathon teams)
+- Problem-Solving (5X Hackathon Winner)
+- Quick Learning (Learned ReactJS in 2 days, Web3 in 6 days)
+- Client Communication (Global freelance projects)
+- Entrepreneurial Mindset
+- Community Building (E-Cell activities, GDG events)
+- Mentoring (Workshop instruction, first-year guidance)
+
+---
+
+## INTERESTS & PASSION AREAS
+
+- **Tech for Social Good:** Building solutions that create real-world impact (Needy Paws, QuickPass, EUSE, Women Safety, Waste Management)
+- **Entrepreneurship:** Fostering innovation and startup culture
+- **Hackathons:** Rapid prototyping and competitive problem-solving
+- **Open Source:** Contributing to developer community
+- **Education:** Sharing knowledge through workshops and talks
+- **Innovation:** Pushing boundaries of what technology can achieve
+- **Animal Welfare:** Using technology for animal protection and care
+- **Environmental Sustainability:** E-waste management and green solutions
+- **Government Tech:** Building solutions for public sector and governance
+
+---
+
+## PORTFOLIO PROJECT CATEGORIES
+
+### Government & Public Sector:
+1. QuickPass (Goa Police - Traffic Compliance)
+2. Traffic Violation Management System
+
+### Social Impact:
+1. Needy Paws (Animal Welfare)
+2. EUSE (E-Waste Management)
+3. Women Safety Ecosystem
+4. Tracq (Smart Waste Management)
+
+### Commercial/Client Projects:
+1. Siddharth Constructions Website
+2. Goa Dental Solutions App
+3. Dating App Platform
+4. Various freelance projects
+
+### AI/Innovation:
+1. ContentAI (Marketing Automation)
+2. Time Capsule (Interactive Identity)
+3. Content Generation App (with AI chatbot)
+4. Question Paper Solver (AI-powered)
+
+### Web3/Blockchain:
+1. Diam Flow (Asset Management)
+2. Carpooling App with Reclaim Protocol
+
+### Academic/Personal:
+1. Blog App
+2. Online Meeting Assistant
+3. Manager (Task Management)
+4. Various hackathon prototypes
+
+---
+
+## KEY METRICS & ACHIEVEMENTS SUMMARY
+
+**Hackathons:**
+- 5X Winner
+- 8X Ideathon Winner
+- Top 30 Nationally (HackIndia - 5,000+ teams)
+- Top 12 in AI Track
+- Top 100 nationally (Hacker House - 25,000+ registrations)
+
+**Recognition:**
+- Award from Chief Minister of Goa
+- College Recognition Award
+- BNI Recognition
+- ACM Chair Position
+
+**Speaking:**
+- 2 Major Technical Talks
+- 1 Workshop (100+ students)
+- Resource Person at GDG Event
+- E-Cell Orientation
+
+**Real-World Impact:**
+- App deployed by Goa Government (QuickPass)
+- India's first police compliance pass app
+- Multiple social impact applications
+- Global freelance clients (India, US, Netherlands, Kenya, Philippines)
+
+**Technical Growth:**
+- Learned ReactJS in 2 days for competition
+- Learned Web3/Blockchain in 6 days
+- Migrated from Flutter to full-stack development
+- Mastered Spring Boot during internship
+
+---
+
+## CONTACT & LINKS
+
+**LinkedIn:** linkedin.com/in/rounak-naik-39354021b/  
+**Location:** South Goa, Goa, India  
+**Education:** Padre Conceicao College of Engineering, Verna (PCCE)  
+**Connections:** 500+
+
+---
+
+## TESTIMONIALS & RECOGNITION QUOTES
+
+**From QuickPass Launch:**
+"QuickPass enables drivers to generate a 24-hour QR code as proof of compliance, eliminating repeated document checks at traffic stops. This is the first app of its kind in India." - Launched by Hon. CM of Goa
+
+**From Award Ceremony:**
+"You know you're on the right track when you walk up to the stage, collect the award, return to your seat — and the compere is still not done reading your list of achievements."
+
+**From Judges at HackIndia:**
+"Competing at national scale was an unforgettable experience, filled with sleepless nights, creative problem-solving, and pure teamwork."
+
+---
+
+## PROJECT TIMELINE HIGHLIGHTS
+
+**2020-2021:**
+- Online Meeting Assistant
+- Manager App
+- Started app development journey
+
+**2022:**
+- Blog App development
+- Dating app platform (client project)
+
+**2023:**
+- Needy Paws (multiple ideathon wins)
+- EUSE (E-waste management)
+- Multiple hackathon victories
+- Dating app project
+- Carpooling apps
+
+**2024:**
+- QuickPass development and launch by Goa Government
+- Goa Dental Solutions
+- Content Generation App
+- Question Paper Solver
+- Diam Flow (Web3)
+- Hacker House participation
+- FlutterFlow Hackathon win
+- ACM Chair position
+- E-Cell IIT Bombay Ambassador
+- Workshop instructor debut
+
+**2025:**
+- Turtlemint internship (Jul-Nov)
+- ContentAI - National HackIndia Top 30
+- Tracq - 1st place Technix
+- Siddharth Constructions website
+- Time Capsule
+- Young Entrepreneur Award from CM
+- PCCE Recognition Award
+- IWD Techmakers Resource Person
+- Multiple technical talks
+
+---
+
+## PORTFOLIO PRESENTATION SUGGESTIONS
+
+### Hero Section:
+- Name + Title
+- Brief tagline highlighting government deployment + national recognition
+- Key numbers: 5X Hackathon Winner, Top 30 Nationally, India's 1st Police App
+
+### Featured Projects (Top 5):
+1. QuickPass (Government deployment - highest priority)
+2. ContentAI (National recognition)
+3. Needy Paws (Multiple wins + social impact)
+4. Tracq (Technical complexity + 1st place)
+5. Siddharth Constructions (Professional client work)
+
+### Achievement Highlights:
+- Young Entrepreneur Award (CM of Goa)
+- HackIndia Top 30/5000+
+- QuickPass Government Launch
+- ACM Chair Position
+- Multiple Speaking Engagements
+
+### Experience Section:
+- Turtlemint Internship (detailed)
+- Freelance work (global clients)
+- Leadership roles (ACM, E-Cell)
+
+### Technical Showcase:
+- Full-stack capabilities
+- Mobile development
+- Government-scale deployments
+- AI integration
+- Web3/Blockchain
+- Real-time systems

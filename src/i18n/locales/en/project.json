@@ -1,0 +1,20 @@
+{
+    "info": {
+        "year": "Year",
+        "location": "Location",
+        "role": "Role",
+        "category": "Category"
+    },
+    "gallery": "Project Gallery",
+    "otherProjects": "Other Projects",
+    "team": "Team",
+    "techStack": "Tech Stack",
+    "descriptions": {
+        "quickpass": "Revolutionary traffic compliance solution developed during the Goa Police Hackathon and officially deployed for active use by Traffic Police across Goa. Drivers generate a 24-hour QR code as proof of compliance, eliminating repeated document checks at traffic stops. India's first app of its kind — launched by the Hon. Chief Minister of Goa, Dr. Pramod Sawant. Features real-time tracking, automated validation, location-based verification, and SMS notifications.",
+        "contentai": "AI-powered content management system that transforms simple campaign goals into complete marketing strategies. Built in 2 days by learning ReactJS from scratch — as a Flutter developer. Ranked Top 30 nationally (out of 5,000+ teams) and Top 12 in the AI Track at HackIndia 2025. Features AI-driven campaign generation, persona analysis, competitor research automation, Instagram analytics integration, living AI mascot system, and SEO-optimized content generation.",
+        "needy-paws": "Comprehensive mobile platform connecting stray animals with adopters, NGOs, vets, and rescuers — published on Play Store. Won 8+ ideathons across NIT Goa, AITD Mapusa, RIT Goa, GEC, and DBCE. Features Google Maps integration, 1-on-1 chat, AI chatbot (Max) powered by OpenAI, community feed, veterinarian listing, push notifications, and image-based AI guidance for animal care.",
+        "tracq": "Smart waste management ecosystem that won both Technix 2025 (1st Place at GEC) and IDEAS 4.0 (1st Place at PCCE). Features RFID-based garbage collection tracking, real-time municipality dashboard, AI models for illegal dumping detection, garbage overflow monitoring, cleanliness scoring, and waste segregation guidance. Built with transparency and accountability in mind — bridging the gap between ground reality and municipal records. Future roadmap includes CCTV infrastructure integration for automated monitoring.",
+        "diam-flow": "Blockchain-based transparent asset distribution system built at Hacker House Goa — chosen from 25,000+ registrations, ranked 4th overall. Developed from zero blockchain knowledge to functional Web3 application in 6 days. Uses Diamante Blockchain for traceable public funds, fair worker payments, and smart contract-based milestone vesting. A first-ever Web3 experience that opened a new frontier.",
+        "siddharth-constructions": "Modern, responsive corporate website for a civil contracting and real estate firm — built with Next.js, Framer Motion, and EmailJS. Fully live on Vercel. Includes a structured hero section, services showcase, project gallery, client testimonials, and a Google Maps-integrated contact form. Zero backend required — EmailJS handles all inquiries directly."
+    }
+}

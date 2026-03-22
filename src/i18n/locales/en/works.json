@@ -1,0 +1,12 @@
+{
+    "title": "Select Works",
+    "subtitle": "Government-deployed apps, national hackathon winners, social-impact platforms, freelance builds, and Web3 experiments — a curated look at what I've shipped.",
+    "filters": {
+        "all": "All",
+        "mobile": "Mobile",
+        "web": "Web",
+        "ai": "AI/ML",
+        "web3": "Web3",
+        "freelance": "Freelance"
+    }
+}

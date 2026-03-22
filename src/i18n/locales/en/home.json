@@ -1,0 +1,25 @@
+{
+    "hero": {
+        "name": "ROUNAK NAIK",
+        "portfolio": "PORTFOLIO",
+        "roles": [
+            "Full-Stack Developer",
+            "Freelancer",
+            "Entrepreneur"
+        ],
+        "bio": "Final-year Computer Engineering student, full-stack developer, and entrepreneur from South Goa. I build real-world tech that ships — from a government-deployed police app to AI platforms that competed nationally.",
+        "title": "Full-Stack Developer · Freelancer · Entrepreneur",
+        "consulting": "Open to exciting projects, collaborations, and opportunities.",
+        "cta": {
+            "work": "View My Work",
+            "contact": "Get In Touch"
+        }
+    },
+    "selectWorks": "Select Works",
+    "achievements": "Achievements",
+    "experience": "Experience",
+    "latestProject": {
+        "heading": "Latest Project",
+        "description": "QuickPass — India's first police compliance pass app, officially launched by the Chief Minister of Goa and actively used by Goa Traffic Police. A 24-hour QR-based compliance system that eliminates repeated document verification at traffic stops."
+    }
+}

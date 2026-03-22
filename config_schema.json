@@ -1,0 +1,30 @@
+{
+  "template": "form_input",
+  "title": "Customize Your Portfolio",
+  "description": "Provide your basic information to personalize this portfolio template.",
+  "fields": [
+    {
+      "key": "artist_name",
+      "label": "Artist Name",
+      "type": "text",
+      "required": true,
+      "default_value": "LENA MOREL",
+      "placeholder": "Enter your name"
+    },
+    {
+      "key": "contact_email",
+      "label": "Contact Email",
+      "type": "text",
+      "required": false,
+      "default_value": "hello@lena-morel.com",
+      "placeholder": "Enter your contact email"
+    },
+    {
+      "key": "avatar",
+      "label": "Avatar",
+      "type": "file",
+      "required": false,
+      "placeholder": "Upload your profile photo"
+    }
+  ]
+}

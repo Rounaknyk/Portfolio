@@ -1,0 +1,20 @@
+{
+    "nav": {
+        "about": "プロフィール",
+        "works": "作品一覧",
+        "resume": "履歴書"
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "madeWith": "情熱を込めて"
+    },
+    "buttons": {
+        "viewProject": "プロジェクトを見る",
+        "backToWorks": "作品一覧に戻る",
+        "getInTouch": "お問い合わせ"
+    },
+    "theme": {
+        "light": "ライト",
+        "dark": "ダーク"
+    }
+}

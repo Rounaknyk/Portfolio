@@ -1,0 +1,16 @@
+{
+    "info": {
+        "year": "年度",
+        "location": "所在地",
+        "role": "役割",
+        "category": "カテゴリー"
+    },
+    "gallery": "プロジェクトギャラリー",
+    "otherProjects": "その他のプロジェクト",
+    "descriptions": {
+        "ai-project": "最先端の機械学習モデルを活用した、現実世界の課題を解決するエンドツーエンドのAIソリューション。Python、TensorFlow、scikit-learnで構築し、大規模データセットを処理して実用的なインサイトを生成。RESTful APIを備えたスケーラブルなクラウドインフラにデプロイしています。",
+        "fullstack-app": "モダンでレスポンシブなインターフェースと堅牢なバックエンドアーキテクチャを持つフルスタックWebアプリケーション。React、Node.js、PostgreSQLを使用し、リアルタイムデータ更新、認証、クリーンなRESTful APIを備えたシームレスなユーザー体験を提供します。",
+        "data-analytics": "複雑なデータセットをリアルタイムで処理・可視化する包括的なデータ分析プラットフォーム。Python、Pandas、Power BIインテグレーションを使用し、インタラクティブなダッシュボード、自動レポート、予測分析モジュールによりデータ駆動型の意思決定を実現します。",
+        "cloud-infrastructure": "AWS上にスケーラブルなクラウドインフラを設計・デプロイ。EC2、S3、Lambda、RDSを活用し、CI/CDパイプライン、DockerとKubernetesによるコンテナオーケストレーション、Terraformを使ったインフラアズコードで信頼性の高い自動デプロイフローを実現しました。"
+    }
+}

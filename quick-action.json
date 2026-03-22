@@ -1,0 +1,17 @@
+[
+  {
+    "id": "update-brand",
+    "label": "Update Brand Identity",
+    "prompt": "Update the brand identity: change the artist name, tagline, email, and color scheme. Ask me for the new values."
+  },
+  {
+    "id": "replace-portfolio",
+    "label": "Replace Portfolio Projects",
+    "prompt": "Replace the current portfolio projects with new ones. Ask me for the project names, categories, descriptions, and images."
+  },
+  {
+    "id": "change-colors",
+    "label": "Change Color Scheme",
+    "prompt": "Change the monochromatic color scheme. The current scheme uses forest green (#1B4332). Ask me for the new primary color and generate a full monochromatic palette."
+  }
+]
