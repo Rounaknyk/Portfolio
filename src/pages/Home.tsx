@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { siteConfig } from "../config/siteConfig";
+import Globe from "../components/Globe";
 
 const badges = [
     { label: "Flutter_Expert", color: "text-primary", border: "border-primary/30" },
@@ -274,12 +275,8 @@ export default function Home() {
 
                 {/* World Map Container */}
                 <div className="relative w-full aspect-[2/1] bg-surface/30 border border-white/5 rounded-sm overflow-hidden">
-                    {/* Map Image */}
-                    <img
-                        src="/global map.png"
-                        alt="Global Client Reach"
-                        className="w-full h-full object-cover"
-                    />
+                    {/* 3D Globe */}
+                    <Globe />
 
                     {/* Corner decorations */}
                     <div className="absolute top-4 left-4 font-mono text-[8px] text-muted uppercase tracking-widest opacity-50">
