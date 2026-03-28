@@ -10,7 +10,7 @@ const locations = [
   { name: 'Kenya', lat: -1, lng: 38 },
   { name: 'Philippines', lat: 12, lng: 122 },
   { name: 'India', lat: 24, lng: 78 },
-];
+]; 
 
 function Marker({ name, lat, lng }: { name: string, lat: number, lng: number }) {
   const radius = 1.52; // slightly larger than the globe to sit on surface

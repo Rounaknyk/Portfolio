@@ -8,7 +8,7 @@
       "label": "Artist Name",
       "type": "text",
       "required": true,
-      "default_value": "LENA MOREL",
+      "default_value": "Rounak Naik Portfolio",
       "placeholder": "Enter your name"
     },
     {
