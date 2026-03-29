@@ -49,7 +49,7 @@ export default function Works() {
                                         <img
                                             src={project.image}
                                             alt={project.name}
-                                            className="w-full h-full object-cover grayscale opacity-40 group-hover:grayscale-0 group-hover:opacity-70 transition-all duration-700 group-hover:scale-105"
+                                            className="w-full h-full object-cover opacity-80 transition-all duration-700 group-hover:scale-105"
                                             onError={(e) => { e.currentTarget.src = "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200"; }}
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />

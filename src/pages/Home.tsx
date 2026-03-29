@@ -43,7 +43,7 @@ export default function Home() {
                             className="max-w-md"
                         >
                             <p className="font-mono text-[11px] md:text-xs text-muted leading-relaxed mb-6">
-                                Aspiring full-stack developer and entrepreneur building real-world tech and AI solutions.
+                                Full-stack developer and entrepreneur building real-world tech and AI solutions.
                             </p>
 
                             <div className="flex flex-wrap gap-3">
@@ -78,7 +78,7 @@ export default function Home() {
                                 <img
                                     src="/rounak1.jpg"
                                     alt="Rounak Naik"
-                                    className="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 group-hover:brightness-100 transition-all duration-700"
+                                    className="w-full h-full object-cover"
                                     onError={(e) => {
                                         e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80";
                                     }}
@@ -207,7 +207,7 @@ export default function Home() {
                                                     <div key={idx} className="whitespace-nowrap">{`import { ${project.slug.toUpperCase()} } from "@antigravity/core";`}</div>
                                                 ))}
                                             </div>
-                                            <img src={project.image} className="w-full h-full object-cover grayscale opacity-30 group-hover:grayscale-0 group-hover:opacity-60 transition-all duration-700" />
+                                            <img src={project.image} className="w-full h-full object-cover opacity-60 group-hover:opacity-80 transition-all duration-700 group-hover:scale-105" />
                                             <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-r from-background/80 via-transparent to-transparent" />
                                         </div>
                                         {/* Details Column */}

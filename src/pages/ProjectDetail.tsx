@@ -22,7 +22,7 @@ export default function ProjectDetail() {
                     <img
                         src={project.image}
                         alt={project.name}
-                        className="w-full h-full object-cover grayscale brightness-50 opacity-40"
+                        className="w-full h-full object-cover opacity-60"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-background via-background/60 to-transparent" />
                 </div>
@@ -143,7 +143,7 @@ export default function ProjectDetail() {
                             >
                                 <img
                                     src={img}
-                                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                                    className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                                     onError={(e) => {
                                         e.currentTarget.src = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800";
                                     }}
