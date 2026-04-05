@@ -63,11 +63,11 @@ export default function Header() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${scrolled
-                ? "h-16 bg-background/80 backdrop-blur-md border-b border-white/5"
-                : "h-24 bg-transparent border-b border-transparent"
+                ? "h-14 sm:h-16 bg-background/80 backdrop-blur-md border-b border-white/5"
+                : "h-16 sm:h-24 bg-transparent border-b border-transparent"
                 }`}
         >
-            <nav className="max-w-[1600px] mx-auto h-full px-6 md:px-12 flex items-center justify-between">
+            <nav className="max-w-[1600px] mx-auto h-full px-4 sm:px-6 md:px-12 flex items-center justify-between">
 
                 {/* Asymmetric Logo Section */}
                 <div className="flex items-baseline gap-4">
@@ -79,10 +79,10 @@ export default function Header() {
                         }}
                         className="group flex flex-col"
                     >
-                        <span className="font-bebas text-3xl tracking-tighter leading-none group-hover:text-primary transition-colors text-white uppercase">
+                        <span className="font-bebas text-xl sm:text-3xl tracking-tighter leading-none group-hover:text-primary transition-colors text-white uppercase">
                             ROUNAK <span className="text-primary group-hover:text-white">NAIK</span>
                         </span>
-                        <span className="font-mono text-[10px] uppercase tracking-[0.4em] text-muted leading-none mt-1">
+                        <span className="font-mono text-[8px] sm:text-[10px] uppercase tracking-[0.2em] sm:tracking-[0.4em] text-muted leading-none mt-1 hidden sm:block">
                             Software Engineer // v.2026
                         </span>
                     </Link>
@@ -152,9 +152,9 @@ export default function Header() {
                         animate={{ opacity: 1, clipPath: "circle(150% at 100% 0%)" }}
                         exit={{ opacity: 0, clipPath: "circle(0% at 100% 0%)" }}
                         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-                        className="fixed inset-0 bg-background/98 backdrop-blur-xl z-[105] flex flex-col justify-center px-12"
+                        className="fixed inset-0 bg-background/98 backdrop-blur-xl z-[105] flex flex-col justify-center px-6 sm:px-12"
                     >
-                        <div className="space-y-8">
+                        <div className="space-y-6 sm:space-y-8">
                             {siteConfig.nav.map((item, i) => (
                                 <motion.div
                                     key={item.key}
@@ -165,13 +165,29 @@ export default function Header() {
                                     <Link
                                         to={item.path}
                                         onClick={(e) => handleNavClick(e, item.path)}
-                                        className="font-bebas text-7xl tracking-tighter hover:text-primary transition-colors block uppercase"
+                                        className="font-bebas text-5xl sm:text-7xl tracking-tighter hover:text-primary transition-colors block uppercase"
                                     >
                                         {item.key}
                                     </Link>
                                 </motion.div>
                             ))}
                         </div>
+
+                        {/* Mobile menu footer */}
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.5 }}
+                            className="absolute bottom-8 left-6 sm:left-12 right-6 sm:right-12"
+                        >
+                            <a
+                                href="/Rounak Naik Resume 2026.pdf"
+                                download
+                                className="block w-full py-4 text-center font-mono text-[10px] sm:text-[11px] uppercase tracking-widest border border-primary/30 text-primary hover:bg-primary hover:text-background transition-all"
+                            >
+                                Download_Resume
+                            </a>
+                        </motion.div>
                     </motion.div>
                 )}
             </AnimatePresence>

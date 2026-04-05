@@ -27,8 +27,8 @@ function Marker({ name, lat, lng }: { name: string, lat: number, lng: number }) 
     <mesh position={[x, y, z]}>
       <sphereGeometry args={[0.04, 16, 16]} />
       <meshBasicMaterial color="#ec4899" />
-      <Html distanceFactor={6}>
-        <div className="text-[12px] font-mono font-bold text-pink -translate-x-1/2 -translate-y-3 whitespace-nowrap bg-black/50 px-1.5 py-0.5 rounded backdrop-blur-sm pointer-events-none uppercase tracking-widest">
+      <Html distanceFactor={8}>
+        <div className="text-[8px] sm:text-[10px] font-mono font-bold text-pink -translate-x-1/2 -translate-y-3 whitespace-nowrap bg-black/50 px-1 sm:px-1.5 py-0.5 rounded backdrop-blur-sm pointer-events-none uppercase tracking-widest">
           {name}
         </div>
       </Html>
